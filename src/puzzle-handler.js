@@ -2,7 +2,7 @@ import { $, shuffleArray, delay, playSound } from './helpers.js'
 import { generateRandomPuzzle, generateQuestionAndAnswer } from './puzzle-factory.js'
 import { getPuzzleSvg } from './svg-factory.js'
 
-const squares = [...Array(4).keys()].map(i => $('#square-' + (i+1)))
+const squares = [...Array(6).keys()].map(i => $('#square-' + (i+1)))
 const progressBar = $('.answer-progress-bar')
 const inputElement = $('.answer-input')
 
@@ -16,7 +16,7 @@ export async function doPuzzle(){
     squares.forEach(square => square.style.backgroundColor = '#2E4561')
       
     // generate numbers and display
-    const nums = shuffleArray([1, 2, 3, 4])
+    const nums = shuffleArray([1, 2, 3, 4, 5, 6])
     console.log(nums)
     await displayNumbers(nums)
 
