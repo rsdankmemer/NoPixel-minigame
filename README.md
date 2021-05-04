@@ -1,4 +1,4 @@
-# NoPixel Bank Hack Minigame
+# NoPixel Paleto Bank Hack Minigame
 I have tried to recreate as closely as possible the bank hack minigame on the whitelisted GTA server NoPixel. Click the thumbnail bellow to try it out!
 
 
