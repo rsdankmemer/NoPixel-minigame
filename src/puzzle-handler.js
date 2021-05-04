@@ -21,7 +21,7 @@ export async function doPuzzle(){
     await displayNumbers(nums)
 
     const metronome = (puzzleTime == 7) ? playSound('assets/metronome.mp3') : playSound('assets/long-metronome.mp3')
-    const puzzles = [...Array(4)].map(_ => generateRandomPuzzle())
+    const puzzles = [...Array(6)].map(_ => generateRandomPuzzle())
 
     // clear and focus input window
     $('.answer-section').classList.remove('hidden')
